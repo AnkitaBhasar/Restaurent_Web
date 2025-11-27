@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Restaurant Website</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+
+   <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center dark-background">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">silvercastle@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 8055306669 </span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Silver Castle</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#book-a-table">Book a Table</a></li>
+          
+              <ul>
+               
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="hero-background">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="assets/img/restaurant/video-4.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="hero-text" data-aos="fade-up" data-aos-delay="100">
+              <span class="tagline">Taste the Essence of Maharashtra</span>
+              <h1 class="hero-title">Welcome to Hotel Silver Castle</h1>
+              <p class="hero-description">Experience the rich culinary heritage of Maharashtra with soulful spices, traditional recipes, and warm hospitality. At Hotel Silver Castle, every dish is crafted with purity, authenticity, and a perfect blend of local flavours that make your dining experience memorable and comforting.</p>
+
+              <div class="hero-actions" data-aos="fade-up" data-aos-delay="200">
+                <a href="#" class="btn btn-primary">Book a Table</a>
+                <a href="#" class="btn btn-outline">View Menu</a>
+              </div>
+
+              <div class="hero-features" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-item">
+                  <i class="bi bi-clock"></i>
+                  <div class="feature-text">
+                    <span class="label">Open Daily</span>
+                    <span class="value">11:00 AM - 11:00 PM</span>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <div class="feature-text">
+                    <span class="label">Location</span>
+                    <span class="value">Kolhapur , Maharashtra</span>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <i class="bi bi-telephone"></i>
+                  <div class="feature-text">
+                    <span class="label">Reservations</span>
+                    <span class="value">+91 20 98765432</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="booking-card" data-aos="fade-left" data-aos-delay="200">
+              <h3>Make a Reservation</h3>
+              <form action="forms/book-a-table.php" method="post" class="php-email-form">
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required="">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="tel" name="phone" class="form-control" placeholder="Your Phone" required="">
+                  </div>
+                  <div class="col-md-6">
+                    <select name="people" class="form-control" required="">
+                      <option value="">Guests</option>
+                      <option value="1">1 Person</option>
+                      <option value="2">2 People</option>
+                      <option value="3">3 People</option>
+                      <option value="4">4 People</option>
+                      <option value="5">5+ People</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="date" name="date" class="form-control" required="">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="time" name="time" class="form-control" required="">
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" class="form-control" rows="3" placeholder="Special requests or dietary restrictions"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your reservation request has been sent. We'll contact you shortly!</div>
+                    <button type="submit" class="btn btn-primary w-100">Reserve Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="400">
+        <div class="scroll-text">Scroll to Explore</div>
+        <div class="scroll-arrow">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+<!-- About Section -->
+<section id="about" class="about section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">&nbsp;About Us</span>
+    <h2>About Hotel Silver Castle</h2>
+    <p>Where authentic Maharashtrian flavours meet warm hospitality and a premium dining experience.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6" data-aos="fade-up">
+        <div class="about-content">
+          <h2>Experience True Maharashtrian Hospitality</h2>
+          <p class="fst-italic">
+            At Hotel Silver Castle, we bring you the richness of Maharashtra’s culinary heritage with purity, warmth, and a homely touch.
+          </p>
+
+          <p>
+            From traditional Kolhapuri specialities to comforting family-style meals, every dish is crafted with fresh ingredients and authentic flavours. 
+            Our focus is simple — premium taste, fast service, and a dining experience you will always come back for.
+          </p>
+
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="feature-item" data-aos="fade-up" data-aos-delay="150">
+                <i class="bi bi-award"></i>
+                <h4>Authentic Taste</h4>
+                <p>Perfectly balanced flavours inspired by Maharashtra’s culinary traditions.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-trophy"></i>
+                <h4>Trusted by Hundreds</h4>
+                <p>Years of quality service and unmatched taste our guests admire.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="signature mt-4" data-aos="fade-up" data-aos-delay="250">
+            <p class="chef-name">Chef & Founder, Hotel Silver Castle</p>
+            <img src="assets/img/misc/signature-1.webp" alt="Chef Signature" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="about-gallery">
+          <div class="row g-3">
+            <div class="col-6">
+              <img src="assets/img/restaurant/showcase-3.webp" class="img-fluid rounded" alt="Hotel Silver Castle Image">
+            </div>
+            <div class="col-6">
+              <img src="assets/img/restaurant/showcase-8.webp" class="img-fluid rounded" alt="Hotel Silver Castle Image">
+            </div>
+            <div class="col-12 mt-3">
+              <div class="years-badge">
+                <span class="number">18</span>
+                <span class="text">Years of Trust</span>
+              </div>
+              <img src="assets/img/restaurant/showcase-6.webp" class="img-fluid rounded" alt="Hotel Silver Castle Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /About Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Menu</span>
+        <h2>Menu</h2>
+        <p>Each dish is crafted with passion, premium ingredients, and rich Indian flavors.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5" data-aos="fade-up" data-aos-delay="200">
+            <ul>
+              <li data-filter="*" class="filter-active">All Dishes</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-main">Main Course</li>
+              <li data-filter=".filter-dessert">Desserts</li>
+              <li data-filter=".filter-drinks">Drinks</li>
+            </ul>
+          </div>
+
+          <div class="menu-grid isotope-container row gy-5" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-starters">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/starter-1.jpg" alt="Starters" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-vegetarian">V</span>
+                  </div>
+                  <div class="price-overlay">Rs.60/-</div>
+                </div>
+                <div class="menu-card-content">
+                  <h4>Masala Papad</h4>
+                  <p>Crispy roasted papad topped with fresh onions, tomatoes, coriander and mild Indian spices.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot active"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-starters">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/starter-2.jpg" alt="Starters" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-vegetarian">V</span>
+                  </div>
+                  <div class="price-overlay">Rs.90/-</div>
+                </div>
+                <div class="menu-card-content">
+                   <h4>Corn Pakoda</h4>
+                  <p>Crunchy deep-fried pakodas made with sweet corn, spices, and chickpea flour, served hot and tasty.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot active"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-xl-4 col-lg-6 isotope-item filter-starters">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/starter-3.jpg" alt="Starters" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-vegetarian">V</span>
+                  </div>
+                  <div class="price-overlay">Rs.120/-</div>
+                </div>
+                <div class="menu-card-content">
+                    <h4>Veg Kabab</h4>
+                   <p>Delicious vegetable kababs made with mashed veggies, herbs, and aromatic Indian spices, grilled to perfection.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot active"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-main">
+              <div class="menu-card featured">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/Main-1.jpg" alt="Main Course" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-chef">Chef's Choice</span>
+                  </div>
+                  <div class="price-overlay">Rs.220/-</div>
+                </div>
+                <div class="menu-card-content">
+                   <h4>Veg Navabi Handi </h4>
+                   <p>A royal blend of mixed vegetables slow-cooked in a rich, creamy Mughlai-style gravy with aromatic spices.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot active"></span>
+                    <span class="spice-dot active"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-main">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/Main-2.png" alt="Main Course" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-vegetarian">V</span>
+                    
+                  </div>
+                  <div class="price-overlay">Rs.180/-</div>
+                </div>
+                <div class="menu-card-content">
+                  <h4>Paneer Tikka Masala</h4>
+                   <p>Creamy tomato gravy infused with tandoori spices, topped with perfectly grilled paneer cubes.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot active"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-dessert">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/Dessert-2.jpg" alt="Dessert" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-signature">Signature</span>
+                  </div>
+                  <div class="price-overlay">Rs.120/-</div>
+                </div>
+                <div class="menu-card-content">
+                   <h4>Kulfi Falooda</h4>
+                   <p>Rich malai kulfi served with silky falooda, rose syrup, cold milk and dry fruits.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-dessert">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/Dessert-1.jpg" alt="Dessert" class="img-fluid" style="width:100%; height:250px; object-fit:fill;">
+                  <div class="dietary-badges">
+                    <span class="badge-vegan">VG</span>
+                  </div>
+                  <div class="price-overlay">Rs.120/-</div>
+                </div>
+                <div class="menu-card-content">
+                  <h4>Fruit custard</h4>
+                  <p>A creamy, chilled dessert made with smooth custard mixed with a colorful variety of fresh seasonal fruits.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-drinks">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/B2.jpg" alt="Drinks" class="img-fluid">
+                  <div class="dietary-badges">
+                    <span class="badge-alcoholic">21+</span>
+                  </div>
+                  <div class="price-overlay">Rs.250/-</div>
+                </div>
+                <div class="menu-card-content">
+                  <h4>Whiskey Sour</h4>
+                  <p>Vibrant and refreshing cocktails served chilled with fresh garnishes, perfect to elevate your dining experience.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 isotope-item filter-drinks">
+              <div class="menu-card">
+                <div class="menu-card-image">
+                  <img src="assets/img/restaurant/B1.jpg" alt="Drinks" class="img-fluid"style="width:100%; height:250px; object-fit:fill;" >
+                  <div class="dietary-badges">
+                    <span class="badge-fresh">Fresh</span>
+                  </div>
+                  <div class="price-overlay">Rs.80/-</div>
+                </div>
+                <div class="menu-card-content">
+                  <h4>Hot Chocolate</h4>
+                  <p>Rich and creamy hot chocolate made with premium cocoa, served warm for a perfect cozy treat.</p>
+                  <div class="spice-level">
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                    <span class="spice-dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="menu-actions" data-aos="fade-up" data-aos-delay="400">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <div class="seasonal-notice">
+                <i class="bi bi-info-circle"></i>
+                <span>Our seasonal menu changes quarterly. Some items may vary based on ingredient availability.</span>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end">
+              <a href="#" class="menu-download-btn">
+                <i class="bi bi-download"></i>
+                <span>Full Menu PDF</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="chef-recommendations" data-aos="fade-up" data-aos-delay="500">
+          <div class="section-header">
+            <h3><i class="bi bi-star-fill"></i> Today's Chef Recommendations</h3>
+            <p>Carefully curated dishes featuring the finest seasonal ingredients</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="recommendation-card">
+                <div class="recommendation-image">
+                  <img src="assets/img/restaurant/ch1.jpg" alt="Chef Recommendation" class="img-fluid">
+                  <div class="chef-badge">
+                    <i class="bi bi-award"></i>
+                    <span>Chef's Pick</span>
+                  </div>
+                </div>
+                <div class="recommendation-content">
+                  <div class="recommendation-header">
+                    <h4>Special Kolhapuri Chicken Thali</h4>
+                    <div class="recommendation-price">Rs.280/-</div>
+                  </div>
+                  <p>A authentic mix of spicy Kolhapuri chicken, tambda rassa, solkadhi & bhakri—crafted for true Maharashtrian food lovers</p>
+                  <div class="recommendation-details">
+                    <div class="serving-info">
+                      <i class="bi bi-clock"></i>
+                      <span>25 min preparation</span>
+                    </div>
+                    <div class="dietary-info">
+                      <span class="mini-badge gluten-free">GF</span>
+                      <span class="mini-badge dairy-free">DF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="recommendation-card">
+                <div class="recommendation-image">
+                  <img src="assets/img/restaurant/fish.jpg" alt="Chef Recommendation" class="img-fluid">
+                  <div class="chef-badge">
+                    <i class="bi bi-award"></i>
+                    <span>Chef's Pick</span>
+                  </div>
+                </div>
+                <div class="recommendation-content">
+                  <div class="recommendation-header">
+                    <h4>Malvani Fish Masala with Tawa Fry</h4>
+                    <div class="recommendation-price">Rs.350/-</div>
+                  </div>
+                  <p>Fresh coastal-style fish cooked in rich Malvani masala, served with crispy tawa fry and homely chutneys.</p>
+                  <div class="recommendation-details">
+                    <div class="serving-info">
+                      <i class="bi bi-clock"></i>
+                      <span>30 min preparation</span>
+                    </div>
+                    <div class="dietary-info">
+                      <span class="mini-badge seafood">SF</span>
+                      <span class="mini-badge premium">Premium</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Feedback</span>
+        <h2>Reviews</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-14 swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": 3,
+              "spaceBetween": 24,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 16
+                },
+                "768": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 24
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 24
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+           <!-- Testimonial Item 1 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>The food was absolutely delightful! The flavours felt just like authentic home-style cooking. Perfect place for a family dinner.</p>
+    <div class="profile">
+      <img src="assets/img/person/boy.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Rohan Deshmukh <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@rohandesh</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Item 2 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>Loved the ambience and the service. Every dish was fresh and full of flavour. Highly recommended for food lovers!</p>
+    <div class="profile">
+      <img src="assets/img/person/girl.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Asmita Patil <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@asmitapatil</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Item 3 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>Great portion sizes and very polite staff. The Kolhapuri dishes were especially amazing. Definitely visiting again.</p>
+    <div class="profile">
+      <img src="assets/img/person/girl2.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Pooja Bhosale <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@poojabhosle</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Item 4 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>Beautiful interiors, warm service, and delicious food. The spices were perfectly balanced. A must-try place!</p>
+    <div class="profile">
+      <img src="assets/img/person/boy2.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Akshay More <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@akshaymore</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Item 5 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>A wonderful experience! The food felt premium, and the service was excellent. Totally worth it.</p>
+    <div class="profile">
+      <img src="assets/img/person/boy.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Ritesh Jadhav <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@riteshj</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Item 6 -->
+<div class="swiper-slide">
+  <div class="testimonial-item">
+    <div class="stars">
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+    </div>
+    <p>Each dish had an authentic Maharashtrian touch. Truly impressed with the flavours and quality.</p>
+    <div class="profile">
+      <img src="assets/img/person/girl.jpg" class="testimonial-img" alt="">
+      <div class="info">
+        <h4>Neha Kulkarni <i class="bi bi-patch-check-fill"></i></h4>
+        <span>@nehakul</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End testimonial item -->
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  <!-- Book A Table Section -->
+<section id="book-a-table" class="book-a-table section light-background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="reservation-container">
+          <div class="row g-0">
+
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="reservation-form-section">
+                <div class="form-header text-center">
+                  <h3>Reserve a Table</h3>
+                  <p>Authentic Maharashtrian taste served fresh. Book your table for a delightful dining experience.</p>
+                </div>
+
+                <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+                  <div class="row gy-3">
+                    <div class="col-12">
+                      <input type="text" name="name" class="form-control" placeholder="Full Name" required="">
+                    </div>
+                    <div class="col-12">
+                      <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
+                    </div>
+                    <div class="col-12">
+                      <input type="tel" class="form-control" name="phone" placeholder="Phone Number (e.g. +91 9876543210)" required="">
+                    </div>
+                    <div class="col-6">
+                      <input type="date" name="date" class="form-control" required="">
+                    </div>
+                    <div class="col-6">
+                      <input type="time" class="form-control" name="time" required="">
+                    </div>
+
+                    <div class="col-6">
+                      <select name="people" class="form-select" required="">
+                        <option value="">Guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6+ Guests</option>
+                      </select>
+                    </div>
+
+                    <div class="col-6">
+                      <select name="occasion" class="form-select">
+                        <option value="">Occasion</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="family">Family Dinner</option>
+                        <option value="business">Business Meeting</option>
+                        <option value="celebration">Celebration</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12">
+                      <textarea class="form-control" name="message" rows="3" placeholder="Special requests (Spice level, Jain food, etc.)"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your reservation request has been submitted. We will contact you shortly.</div>
+                  </div>
+
+                  <button type="submit" class="btn-reserve w-100">
+                    <i class="bi bi-calendar-check me-2"></i>
+                    Reserve Table
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+              <div class="reservation-info-section">
+                <div class="hero-image">
+                  <img src="assets/img/restaurant/showcase-2.webp" alt="Restaurant dining area" class="img-fluid">
+                  <div class="overlay-content">
+                    <h4>Maharashtrian Fine Dining</h4>
+                    <p>Traditional flavors with a modern touch. Experience the taste of Maharashtra.</p>
+                  </div>
+                </div>
+
+                <div class="info-cards">
+                  <div class="row g-3">
+
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                      <div class="info-card">
+                        <div class="card-icon">
+                          <i class="bi bi-clock"></i>
+                        </div>
+                        <div class="card-content">
+                          <h5>Business Hours</h5>
+                          <p>
+                            Monday - Friday: 11:00 AM - 11:00 PM<br>
+                            Saturday - Sunday: 10:00 AM - 11:30 PM<br>
+                            <em>Lunch & Dinner Both Available</em>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="450">
+                      <div class="info-card">
+                        <div class="card-icon">
+                          <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div class="card-content">
+                          <h5>Find Us</h5>
+                          <p>
+                            Shivaji Chowk, Near Central Mall,<br>
+                            Kolhapur, Maharashtra 416003
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                      <div class="info-card">
+                        <div class="card-icon">
+                          <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="card-content">
+                          <h5>Reservations</h5>
+                          <p>+91 98230 56789<br>
+                            <small>Available 10:00 AM - 10:00 PM</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="550">
+                      <div class="info-card">
+                        <div class="card-icon">
+                          <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="card-content">
+                          <h5>Email Us</h5>
+                          <p>silvercastle@gmail.com<br>
+                            <small>Response within 12 hours</small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="additional-info" data-aos="fade-up" data-aos-delay="600">
+                  <div class="info-highlight">
+                    <i class="bi bi-star-fill"></i>
+                    <span>Weekend bookings get full fast — reserve 1 day earlier.</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Book A Table Section -->
+
+
+   
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">Gallery</span>
+    <h2>Gallery</h2>
+    <p>Discover the rich flavors of India through our handpicked dishes and vibrant ambience.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <!-- FILTERS WITHOUT STAFF -->
+      <ul class="restaurant-gallery-filters isotope-filters mb-4 justify-content-center d-flex gap-2" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-food">Food</li>
+        <li data-filter=".filter-drinks">Drinks</li>
+        <li data-filter=".filter-interior">Interior</li>
+      </ul>
+
+      <div class="row g-3 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- FOOD ITEM -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-food">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/Main-1.jpg " class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/Main-1.jpg" alt="Grilled Salmon" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Veg Navabi Handi</span>
+              <span>Spicy and Tasty.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- INTERIOR -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-interior">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/dinning.jpg" class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/dinning.jpg" alt="Dining Hall" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Dining Hall</span>
+              <span>Spacious, warm and welcoming ambiance.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-drinks">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/B2.jpg" class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/B2.jpg" alt="Signature Mocktail" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Signature Mocktail</span>
+              <span>Vibrant blend of fresh citrus and herbs.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+       
+
+        <!-- INTERIOR -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-interior">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/bar.jpg" class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/bar.jpg" alt="Bar Area" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Bar Area</span>
+              <span>Cozy spot for cocktails and good conversation.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-drinks">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/drink-8.webp" class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/drink-8.webp" alt="Classic Espresso" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Cocktails</span>
+              <span>A cocktail is a mixed drink made by combining alcohol with juices, sodas, syrups, or other flavors.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- FOOD -->
+        <div class="col-lg-4 col-md-6 isotope-item filter-food">
+          <figure class="gallery-card">
+            <a href="assets/img/restaurant/VM.jpg" class="glightbox" data-gallery="restaurant-gallery">
+              <img src="assets/img/restaurant/VM.jpg" alt="Beef Fillet" class="img-fluid rounded" loading="lazy">
+            </a>
+            <figcaption class="caption">
+              <span class="caption-title">Veg Maratha</span>
+              <span>Veg Maratha is a spicy Maharashtrian gravy dish made with mixed vegetables cooked in a rich, flavorful, masala-based curry.</span>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+<section id="contact" class="contact section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span class="description-title">Contact</span>
+    <h2>Contact</h2>
+    <p>For delicious Indian flavors and warm hospitality, feel free to reach out to us anytime.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Contact Info Boxes -->
+    <div class="row gy-4 mb-5">
+
+      <!-- Address -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <div class="info-content">
+            <h4>Our Address</h4>
+            <p>Shivaji Chowk, Near Central Mall,<br> Kolhapur, Maharashtra 416003</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="info-content">
+            <h4>Email Address</h4>
+            <p>silvercastle@gmail.com</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-headset"></i>
+          </div>
+          <div class="info-content">
+            <h4>Hours of Operation</h4>
+            <p>Mon – Sun: 11 AM – 11 PM</p>
+            <p>Lunch & Dinner Served Daily</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Google Map (India Location) -->
+  <div class="map-section" data-aos="fade-up" data-aos-delay="200">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.2589320110946!2d74.2431!3d16.7066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1003d0ac2ab4d%3A0xe0e2cf7988f65b2d!2sShivaji%20Chowk%2C%20Kolhapur!5e0!3m2!1sen!2sin!4v1700000000000" 
+      width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div class="container form-container-overlap">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-lg-10">
+        <div class="contact-form-wrapper">
+          <h2 class="text-center mb-4">Get in Touch</h2>
+
+          <form action="#" method="post" class="php-email-form">
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-person"></i>
+                    <input type="text" class="form-control" name="name" placeholder="Full Name" required="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-text-left"></i>
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-chat-dots message-icon"></i>
+                    <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required=""></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+  <div class="container">
+    <div class="row gy-5">
+
+      <!-- About + Newsletter -->
+      <div class="col-lg-4">
+        <div class="footer-content">
+          <a href="index.html" class="logo d-flex align-items-center mb-4">
+            <span class="sitename">Silver Castle</span>
+          </a>
+
+          <p class="mb-4">
+            Serving authentic Maharashtrian & North Indian cuisine with rich flavors, homely warmth, 
+            and unforgettable taste. Join us for a true desi dining experience!
+          </p>
+
+          <div class="newsletter-form">
+            <h5>Stay Updated</h5>
+            <form action="#" method="post" class="php-email-form">
+              <div class="input-group">
+                <input type="email" name="email" class="form-control" placeholder="Enter your email" required="">
+                <button type="submit" class="btn-subscribe">
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Thank you for subscribing!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-2 col-6">
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Menu</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Gallery</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Reservation</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Food Categories -->
+      <div class="col-lg-2 col-6">
+        <div class="footer-links">
+          <h4>Our Specials</h4>
+          <ul>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Kolhapuri Thali</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Tandoori Dishes</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Seafood</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Desserts</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right"></i> Drinks</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-4">
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-geo-alt"></i></div>
+            <div class="contact-info">
+              <p>Shivaji Chowk, Near Central Mall,<br>Kolhapur, Maharashtra 416003</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+            <div class="contact-info">
+              <p>+91 92840 12345</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+            <div class="contact-info">
+              <p>silvercastle@gmail.com</p>
+            </div>
+          </div>
+
+          
+            <div class="social-links">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Silvercastle</strong> <span>All Rights Reserved</span>
+      </p>
+    </div>
+
+       
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

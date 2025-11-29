@@ -68,7 +68,7 @@ https://restaurent-web-omega.vercel.app/
 ## ▶️ Run Locally
 
 1. Clone the repository:
- git clone https://github.com/ankitabhasar/restaurant-website
+ git clone https://github.com/AnkitaBhasar/Restaurent_Web
 
 2. Open the folder:
    cd restaurant-website

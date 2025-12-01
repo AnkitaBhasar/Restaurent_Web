@@ -12,7 +12,7 @@ https://restaurent-web-omega.vercel.app/
 
 ## 📂 Project Structure
 
-.
+
 ├── index.html
 ├── assets/
 │ ├── css/
@@ -78,6 +78,5 @@ https://restaurent-web-omega.vercel.app/
 4. If you want to test PHP forms:
    php -S localhost:8000
 
-## 📄 License
-This project is available for personal and educational use.
+
 
